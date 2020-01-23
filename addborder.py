@@ -8,3 +8,4 @@ def addBorder(picture):
 
 
 print(addBorder(['efa', 'ff', 'fwr']))
+print(addBorder(['efawwww', 'ff', 'fwr']))
