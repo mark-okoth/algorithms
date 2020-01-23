@@ -5,9 +5,4 @@ def AddTwodigits(a):
         count = count + mark
     return count
        
-        
-
-
-
-
 print(AddTwodigits(15893))    
