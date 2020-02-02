@@ -6,9 +6,9 @@ for i in range(len(A)):
       
     # Find the minimum element in remaining  
     # unsorted array 
-    min_idx = i 
+    index = i 
     for j in range(i+1, len(A)): 
-        if A[min_idx] > A[j]: 
+        if A[index] > A[j]: 
             min_idx = j 
               
     # Swap the found minimum element with  
