@@ -9,11 +9,11 @@ for i in range(len(A)):
     index = i 
     for j in range(i+1, len(A)): 
         if A[index] > A[j]: 
-            min_idx = j 
+            index = j 
               
     # Swap the found minimum element with  
     # the first element         
-    A[i], A[min_idx] = A[min_idx], A[i] 
+    A[i], A[index] = A[index], A[i] 
   
 # Driver code to test above 
 print ("Sorted array") 
