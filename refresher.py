@@ -14,3 +14,12 @@ plt.xlabel('x line')
 plt.ylabel('y line')
 
 print(plt.show())
+
+# simple bar graph
+
+labels = ['A', 'B', 'C']
+values = [1, 4, 2]
+
+plt.bar(labels, values)
+
+plt.show()
